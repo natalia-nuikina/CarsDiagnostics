@@ -1,0 +1,316 @@
+[
+  {
+    "id": 1,
+    "name": "Общие проверки",
+    "subsections": [
+      {
+        "sectionId": 1,
+        "name": "Центральный замок",
+        "data": {
+          "availability": true,
+          "repair": ["Не установлен", "Передний не исправен", "Задний не исправен", "Не функционирует"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Стеклоочистители",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Cтеклоподьемники",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Кондиционер/ климат контроль",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Подогрев сидений",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Работа регулировки сидений",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Звуковой сигнал",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Зеркала, складывание зеркал, подогрев",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Парктроник",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Аудиосистема",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Освещение салона",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Внешнее освещение",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Соответсвие регулировки фар ГОСТуР 51709-2001",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Отсутствие внесенных изменений в конструкцию оптики",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Люк/ панорамная крыша",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Наличие запасного колеса/ докатка",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Датчик давления в колесах",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Камера заднего обзора",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 1,
+        "name": "Камера кругового обзора",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Компьютерная диагностика",
+    "subsections": [
+      {
+        "sectionId": 2,
+        "name": "Ошибки по блокам ПОДВЕСКИ",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 2,
+        "name": "Ошибки по блокам электронным системам безопасности и помощи на дороге",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 2,
+        "name": "Ошибки прочие",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Аккумуляторная батарея",
+    "subsections": [
+      {
+        "sectionId": 3,
+      "name": "Внешний вид, крепеж, клеммы",
+      "data": {
+        "availability": true,
+        "repair": ["Окисление клемм", "Отклонение от нарматива (низкое напряжение)", "Отклонение от нарматива (прерваная цепь)", "Отклонение от нарматива (смена полярности)", "Разряжен", "Корпус имеет повреждения", "Деформация", "Отсутсвует деталь", "Напряжение без нагрузки ниже нормы"],
+        "state": null,
+        "breakage": []
+        }
+      },
+      {
+      "sectionId": 3,
+      "name": "Уровень заряда, состояние АКБ",
+      "data": {
+        "availability": false,
+        "repair": ["Напряжение без нагрузки ниже нормы"],
+        "state": null,
+        "breakage": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Навесное оборудование",
+    "subsections": [
+      {
+        "sectionId": 4,
+        "name": "Стартер",
+        "data": {
+          "availability": false,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 4,
+        "name": "Гениратоор",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 4,
+        "name": "Компрессор кондиционера",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 4,
+        "name": "Проверка температуры воздуха из воздуховодов",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      },
+      {
+        "sectionId": 4,
+        "name": "Ремень",
+        "data": {
+          "availability": true,
+          "repair": ["Требует ремонт"],
+          "state": null,
+          "breakage": []
+        }
+      }
+    ]
+  }
+]

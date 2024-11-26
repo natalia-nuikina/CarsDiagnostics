@@ -1,0 +1,14 @@
+install: 
+	npm ci
+publish:
+	npm publish --dry-run
+lint:
+	npx eslint .
+start:
+	make -C carschecks start
+deploy:
+	git push heroku main
+develop:
+	make start-backend & make start-frontend
+build:
+	npm run build
