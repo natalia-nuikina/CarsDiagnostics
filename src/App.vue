@@ -1,12 +1,11 @@
 <script setup>
-import CarsList from './components/CarsList.vue';
+// import CarsList from './components/CarsList.vue';
 
 </script>
 
 <template>
   <main>
-    <h1>Hellow World</h1>
-    <CarsList />
+    <!-- <h1>Hellow World</h1> -->
       <RouterView />
   </main>
 </template>
