@@ -69,8 +69,8 @@ function goToDiagnostics(id) {
     outline: none;
     width: 90vw;
     height: 6vh;
-    padding: 3vh 3vh;
-    margin: 0 5vw 3vw 5vw;
+    padding: 3vh 3vw;
+    margin: 0 5vw 1vh 5vw;
     border: 2px solid #4d4c4c;
     color: #fcfcfc;
   }
@@ -81,8 +81,8 @@ function goToDiagnostics(id) {
 
   .table {
     width: 90vw;
-    margin: 0 5vw 3vw 5vw;
-    padding: 3vw 0;
+    margin: 0 5vw 3vh 5vw;
+    padding: 3vh 0;
   }
 
   table {
