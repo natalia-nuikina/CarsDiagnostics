@@ -28,7 +28,7 @@ function reviewCar() {
   <KeepAlive>
   <div class="wrapper">
     <header>
-      <h4>Диагностика {{ reviewCar() }}</h4>
+      <h4><div>Диагностика</div><div>{{ reviewCar() }}</div></h4>
     </header>
     <main>
       <button class="previous" @click="goToCars">
@@ -56,7 +56,7 @@ function reviewCar() {
 
   h4 {
     width: 100vw;
-    padding: 4vh 8vw;
+    padding: 4vh 8vw 3vh 8vw;
     margin: 0;
     font-size: 2.5vh;
   }
