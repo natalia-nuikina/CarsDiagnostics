@@ -19,7 +19,7 @@ const idOfModal = ref(null)
 
 function reviewSubsection() {
   if (!store.getIdOfCurrentCar()) {
-    router.replace(`/cars/`)
+    router.replace(`/`)
   } else {
     return store.getNameOfSubsection();
   }

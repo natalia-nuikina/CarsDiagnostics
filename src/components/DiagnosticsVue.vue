@@ -7,7 +7,7 @@ const sections = store.getSectionsOfChecks();
 
 const router = useRouter();
 function goToCars() {
-  router.replace(`/cars/`)
+  router.replace(`/`)
 }
 
 function goToSubsections(id) {

@@ -6,7 +6,6 @@ import DiagnosticsVue from './components/DiagnosticsVue.vue'
 
 const routes = [
   { path: '/', component: CarsList },
-  // { path: '/cars/', component: CarsList },
   { path: '/diagnostics/', component: DiagnosticsVue, props: true },
   { path: '/diagnostics/subsection', component: GeneralVue, props: true },
 ]
