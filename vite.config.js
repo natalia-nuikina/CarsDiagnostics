@@ -15,7 +15,6 @@ export default defineConfig({
     },
   },
   base: '/cars/',
-  root: './',
   build: {
     outDir: './dist'
   }
