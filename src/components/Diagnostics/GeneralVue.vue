@@ -80,11 +80,13 @@ function reviewSubsection() {
 
 <style scoped>
   .wrapper {
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fcfcfc;
+    justify-content: space-between;
   }
 
   h4 {
@@ -123,7 +125,7 @@ function reviewSubsection() {
     display: flex;
     flex-direction: column;
     background-color: #1a1919;
-    height: 55vh;
+    height: 69vh;
     overflow: auto;
     margin-bottom: 0;
   }
