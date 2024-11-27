@@ -1,5 +1,5 @@
 <script setup>
-// import CarsList from './components/CarsList.vue';
+import CarsList from './components/CarsList.vue';
 
 </script>
 
