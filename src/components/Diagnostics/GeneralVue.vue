@@ -49,24 +49,24 @@ function reviewSubsection() {
               </div>
               <div :class="{'red': store.getColor(todo.id) === 'breakage' }" @click="store.setCarState(todo.id, 'state', null)">
                 <ToolOutlined class="icon" @click="open = true, idOfModal = todo.id"/>
-                <Teleport to="body">
-                  <div v-if="open" class="modal">
-                    <div class="breakages">
-                      <button :class="{'redButton': store.getCheckById(idOfModal).data.breakage.includes(breakage.name)}" class="breakage" v-for="breakage in list(idOfModal)" :key="breakage.id" @click="store.setCarState(idOfModal, 'setBreakage', breakage.name)">
-                        {{ breakage.name }}
-                      </button>
-                    </div>
-                    <div class="control">
-                      <button class="clean" @click="store.setCarState(idOfModal, 'removeAll')">Очистить</button>
-                      <button class="apply" @click="open = false">Применить</button>
-                    </div>
-                  </div>
-                  <div v-if="open" class="modal-background"></div>
-              </Teleport>
               </div>
             </div>
           </li>
         </ul>
+        <Teleport to="body">
+          <div v-if="open" class="modal">
+            <div class="breakages">
+              <button :class="{'redButton': store.getCheckById(idOfModal).data.breakage.includes(breakage.name)}" class="breakage" v-for="breakage in list(idOfModal)" :key="breakage.id" @click="store.setCarState(idOfModal, 'setBreakage', breakage.name)">
+                {{ breakage.name }}
+              </button>
+            </div>
+            <div class="control">
+              <button class="clean" @click="store.setCarState(idOfModal, 'removeAll')">Очистить</button>
+              <button class="apply" @click="open = false">Применить</button>
+            </div>
+          </div>
+          <div v-if="open" class="modal-background" @click="open = false"></div>
+      </Teleport>
       </div>
     </main>
     <footer>
