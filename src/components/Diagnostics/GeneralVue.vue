@@ -89,8 +89,8 @@ function reviewSubsection() {
 
   h4 {
     width: 100%;
-    padding: 3vh 8vw;
-    margin-top: 3vh;
+    padding: 4vh 8vw;
+    margin: 0;
     font-size: 2.5vh;
   }
 
