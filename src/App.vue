@@ -5,7 +5,7 @@
 
 <template>
   <main>
-    <!-- <h1>Hellow World</h1> -->
+    <h1>Hellow World</h1>
       <RouterView />
   </main>
 </template>
