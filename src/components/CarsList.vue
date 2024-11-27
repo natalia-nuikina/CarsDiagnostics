@@ -60,7 +60,7 @@ function goToDiagnostics(id) {
   h4 {
     width: 100%;
     padding: 3vh 8vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     font-size: 2.5vh;
   }
   .wrapper input {

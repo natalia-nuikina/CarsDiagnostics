@@ -57,7 +57,7 @@ function reviewCar() {
   h4 {
     width: 100vw;
     padding: 3vh 8vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     font-size: 2.5vh;
   }
 

@@ -90,7 +90,7 @@ function reviewSubsection() {
   h4 {
     width: 100%;
     padding: 3vh 8vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     font-size: 2.5vh;
   }
 
@@ -123,7 +123,7 @@ function reviewSubsection() {
     display: flex;
     flex-direction: column;
     background-color: #1a1919;
-    height: 63vh;
+    height: 55vh;
     overflow: auto;
     margin-bottom: 0;
   }
@@ -251,6 +251,7 @@ function reviewSubsection() {
 
   footer {
     align-self: flex-end;
+    margin-top: 1vh;
   }
 
   .footerApply {
