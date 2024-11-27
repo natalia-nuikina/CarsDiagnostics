@@ -5,20 +5,11 @@ import GeneralVue from './components/Diagnostics/GeneralVue.vue'
 import DiagnosticsVue from './components/DiagnosticsVue.vue'
 
 const routes = [
-  { path: '/cars/', component: CarsList },
-  { path: '/cars/diagnostics/', component: DiagnosticsVue, props: true },
-  { path: '/cars/diagnostics/subsection', component: GeneralVue, props: true },
+  { path: '/', component: CarsList },
+  // { path: '/cars/', component: CarsList },
+  { path: '/diagnostics/', component: DiagnosticsVue, props: true },
+  { path: '/diagnostics/subsection', component: GeneralVue, props: true },
 ]
-
-// const routes = [
-//   { path: '/cars/', component: CarsList,
-//     children: [
-//       { path: '/cars/diagnostics/', component: DiagnosticsVue, children: [
-//         { path: '/cars/diagnostics/subsection', component: GeneralVue, props: true },
-//       ], props: true },
-//     ],
-//   },
-// ]
 
 const router = createRouter({
   history: createWebHistory(),
