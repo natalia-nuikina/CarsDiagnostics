@@ -56,21 +56,21 @@ function reviewCar() {
 
   h4 {
     width: 100vw;
-    padding: 4vh 8vw 3vh 8vw;
+    padding: 4dvh 8vw 3dvh 8vw;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2.5dvh;
   }
 
   .previous {
     background: #1a1919;
     width: 90vw;
-    height: 8vh;
-    padding: 3vh 5vw;
+    height: 8dvh;
+    padding: 3dvh 5vw;
     margin: 0 5vw;
     border: none;
     color: #fcfcfc;
     text-align: left;
-    font-size: 2vh;
+    font-size: 2dvh;
     display: flex;
   }
   .previous p {
@@ -80,7 +80,7 @@ function reviewCar() {
   .nav {
     width: 90vw;
     margin: 0 5vw;
-    padding: 3vh 0;
+    padding: 3dvh 0;
   }
 
   nav {
@@ -90,14 +90,14 @@ function reviewCar() {
   }
 
   nav button {
-    height: 8vh;
-    padding: 3vh 5vw;
+    height: 8dvh;
+    padding: 3dvh 5vw;
     background-color: #1a1919;
     border: none;
     border-bottom: 1px solid #4d4c4c;
     color: #fcfcfc;
     text-align: left;
-    font-size: 1.8vh;
+    font-size: 1.8dvh;
   }
 
   nav button:active {

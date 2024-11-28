@@ -59,18 +59,18 @@ function goToDiagnostics(id) {
 
   h4 {
     width: 100%;
-    padding: 4vh 8vw 3vh 8vw;
+    padding: 4dvh 8vw 3dvh 8vw;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2.5dvh;
   }
   .wrapper input {
     background: #1a1919;
-    font-size: 2vh;
+    font-size: 2dvh;
     outline: none;
     width: 90vw;
-    height: 6vh;
-    padding: 3vh 3vw;
-    margin: 0 5vw 1vh 5vw;
+    height: 6dvh;
+    padding: 3dvh 3vw;
+    margin: 0 5vw 1dvh 5vw;
     border: 2px solid #4d4c4c;
     color: #fcfcfc;
   }
@@ -81,16 +81,16 @@ function goToDiagnostics(id) {
 
   .table {
     width: 90vw;
-    margin: 0 5vw 3vh 5vw;
-    padding: 3vh 0;
+    margin: 0 5vw 3dvh 5vw;
+    padding: 3dvh 0;
   }
 
   table {
     width: 90vw;
     background-color: #1a1919;
     border: none;
-    font-size: 1.45vh;
-    line-height: 2vh;
+    font-size: 1.45dvh;
+    line-height: 2dvh;
     border-collapse: collapse;
   }
 
@@ -98,13 +98,13 @@ function goToDiagnostics(id) {
     text-align: left;
   }
   .table thead th  {
-    height: 8vh;
+    height: 8dvh;
     border-bottom: 1px solid #4d4c4c;
-    padding: 2vh 0 2vh 3vw;
+    padding: 2dvh 0 2dvh 3vw;
   }
   .table tbody td {
-    height: 8vh;
-    padding: 2vh 0 2vh 3vw;
+    height: 8dvh;
+    padding: 2dvh 0 2dvh 3vw;
   }
   .table tbody tr  {
     border-bottom: 1px solid #4d4c4c;
