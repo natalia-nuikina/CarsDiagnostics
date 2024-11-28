@@ -91,21 +91,21 @@ function reviewSubsection() {
 
   h4 {
     width: 100%;
-    padding: 4vh 8vw 3vh 8vw;
+    padding: 4dvh 8vw 3dvh 8vw;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2.5dvh;
   }
 
   .previous {
     background: #1a1919;
     width: 90vw;
-    height: 8vh;
-    padding: 3vh 5vw;
+    height: 8dvh;
+    padding: 3dvh 5vw;
     margin: 0 5vw;
     border: none;
     color: #fcfcfc;
     text-align: left;
-    font-size: 2vh;
+    font-size: 2dvh;
     display: flex;
   }
   .previous p {
@@ -118,22 +118,22 @@ function reviewSubsection() {
   .list {
     width: 90vw;
     margin: 0 5vw;
-    padding-top: 3vh;
+    padding-top: 3dvh;
   }
 
   ul {
     display: flex;
     flex-direction: column;
     background-color: #1a1919;
-    height: 69vh;
+    height: 69dvh;
     overflow: auto;
     margin-bottom: 0;
   }
 
   li {
-    height: 10vh;
+    height: 10dvh;
     list-style-type: none;
-    padding: 3vh 5vw;
+    padding: 3dvh 5vw;
     background-color: #1a1919;
     border: none;
     border-bottom: 1px solid #4d4c4c;
@@ -181,8 +181,8 @@ function reviewSubsection() {
   /* height: 40vh; */
   display: flex;
   flex-direction: column;
-  font-size: 2vh;
-  padding: 1.5vh 3vw;
+  font-size: 2dvh;
+  padding: 1.5dvh 3vw;
   justify-content: space-between;
   }
 
@@ -209,8 +209,8 @@ function reviewSubsection() {
   .breakage {
     /* width: 40vw; */
     height: fit-content;
-    padding: 0.6vh 1.5vw;
-    margin: 1.2vh 2vw;
+    padding: 0.6dvh 1.5vw;
+    margin: 1.2dvh 2vw;
     border-radius: 5px;
     background-color: #1a1919;
     border: 2px solid #4d4c4c;
@@ -229,8 +229,8 @@ function reviewSubsection() {
   }
 
   .apply {
-    padding: 0.6vh 1.5vw;
-    margin: 1.2vh 2vw;
+    padding: 0.6dvh 1.5vw;
+    margin: 1.2dvh 2vw;
     border-radius: 5px;
     border: 2px solid rgb(0, 94, 0);
     background-color: #1a1919;
@@ -238,8 +238,8 @@ function reviewSubsection() {
   }
 
   .clean {
-    padding: 0.6vh 1.5vw;
-    margin: 1.2vh 2vw;
+    padding: 0.6dvh 1.5vw;
+    margin: 1.2dvh 2vw;
     border-radius: 5px;
     border: 2px solid rgb(105, 1, 1);
     background-color: #1a1919;
@@ -253,31 +253,31 @@ function reviewSubsection() {
 
   footer {
     align-self: flex-end;
-    margin-top: 1vh;
+    margin-top: 1dvh;
   }
 
   .footerApply {
-    margin: 1vh 5vw;
+    margin: 1dvh 5vw;
   }
 
   .footerPrevious {
-    padding: 1.2vh 3vw;
+    padding: 1.2dvh 3vw;
     margin: 0 3vw;
     border: 2px solid #4d4c4c;
     background-color: #1a1919;
     color: #848484;
-    font-size: 1.8vh;
+    font-size: 1.8dvh;
     border-radius: 5%;
   }
 
   .next {
-    padding: 1.2vh 3vw;
+    padding: 1.2dvh 3vw;
     margin-left: 3vw;
     border: 2px solid #4d4c4c;
     background-color: #1a1919;
     color: #848484;
     border-radius: 5%;
-    font-size: 1.8vh;
+    font-size: 1.8dvh;
   }
 
 </style>
