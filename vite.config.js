@@ -24,7 +24,6 @@
 //   },
 //   base: '/',
 // })
-
 import process from 'node:process';
 import replace from '@rollup/plugin-replace';
 import Vue from '@vitejs/plugin-vue';
