@@ -31,7 +31,6 @@ function goToDiagnostics(id) {
       <input
         v-model="model"
         placeholder="Поиск по госномеру или VIN"
-        type="search"
         @keyup="search({ model })"
       >
       <div class="table">
