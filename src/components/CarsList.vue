@@ -31,6 +31,7 @@ function goToDiagnostics(id) {
       <input
         v-model="model"
         placeholder="Поиск по госномеру или VIN"
+        type="text"
         @keyup="search({ model })"
       >
       <div class="table">
@@ -119,5 +120,9 @@ function goToDiagnostics(id) {
   }
   tbody tr:active {
     background: #575757;
+  }
+
+  input[type='text'] {
+  font-size: 16px;
   }
 </style>
