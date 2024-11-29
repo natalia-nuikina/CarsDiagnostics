@@ -39,9 +39,9 @@ const pwaOptions = {
 	base: '/',
 	includeAssets: ['favicon.svg'],
 	manifest: {
-		name: 'PWA Router',
-		short_name: 'PWA Router',
-		theme_color: '#ffffff',
+		name: 'Cars Diagnostics',
+		short_name: 'Cars Diagnostics',
+		theme_color: '#0f0f0f',
 		icons: [
 			{
 				src: 'pwa-192x192.png', // <== don't add slash, for testing
