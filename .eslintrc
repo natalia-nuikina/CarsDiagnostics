@@ -1,0 +1,37 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/vue3-recommended",
+        "eslint:recommended",
+    ],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "parser": {
+            "js": "espree",
+            "<template>": "espree"
+        },
+        "sourceType": "module"
+    },
+    "plugins": [ "import" ],
+    "ignorePatterns": [ "dist/**/*", "node_modules/**/*" ],
+    "rules": {
+        "indent": ["error", "tab"],
+        "semi": ["error", "always"],
+        "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+        "import/order": ["error", {
+            "groups": [ "builtin", "external", "internal", "parent", "sibling", "index" ],
+            "newlines-between": "never",
+            "alphabetize": { "order": "asc" }
+        }],
+        "no-useless-escape": "off",
+        "vue/no-unused-vars": "error",
+        "vue/no-v-html": "off",
+    //   "vue/html-indent": [ "error", "tab" ],
+    }
+}

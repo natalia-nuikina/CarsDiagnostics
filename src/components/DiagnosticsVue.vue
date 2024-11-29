@@ -1,86 +1,67 @@
 <script setup>
 import { ArrowLeftOutlined } from '@ant-design/icons-vue';
 import { useRouter } from 'vue-router';
-import store from '@/store';
+import store from '../store';
 
 const sections = store.getSectionsOfChecks();
-
 const router = useRouter();
+
 function goToCars() {
-  router.replace(`/`)
+	router.replace(`/`);
 }
 
 function goToSubsections(id) {
-  store.setActiveSubsection(id);
-  router.push(`subsection`);
+	store.setActiveSubsection(id);
+	router.push(`subsection`);
 }
 
 function reviewCar() {
-  if (!store.getIdOfCurrentCar()) {
-    goToCars()
-  } else {
-    return store.getCarModelWithNumber();
-  }
+	if (!store.getIdOfCurrentCar()) {
+		goToCars();
+	} else {
+		return store.getCarModelWithNumber();
+	}
 }
 </script>
 
 <template>
   <KeepAlive>
-  <div class="wrapper">
-    <header>
-      <h4><div>Диагностика</div><div>{{ reviewCar() }}</div></h4>
-    </header>
-    <main>
-      <button class="previous" @click="goToCars">
-        <ArrowLeftOutlined />
-        <p>Машины</p>
-      </button>
-      <div class="nav">
-        <nav v-for="todo in sections" :key="todo.id" @click="goToSubsections(todo.id)">
-          <button>{{ todo.name }}</button>
-        </nav>
-      </div>
-    </main>
-  </div>
-</KeepAlive>
+    <div class="wrapper">
+      <header>
+        <h4>
+          <div>Диагностика</div>
+          <div>{{ reviewCar() }}</div>
+        </h4>
+      </header>
+      <main>
+        <button
+          class="previous"
+          @click="goToCars"
+        >
+          <ArrowLeftOutlined />
+          <p>Машины</p>
+        </button>
+        <div class="nav">
+          <nav
+            v-for="todo in sections"
+            :key="todo.id"
+            @click="goToSubsections(todo.id)"
+          >
+            <button>{{ todo.name }}</button>
+          </nav>
+        </div>
+      </main>
+    </div>
+  </KeepAlive>
 </template>
 
 <style scoped>
-  .wrapper {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fcfcfc;
-  }
-
-  h4 {
-    width: 100vw;
-    padding: 4dvh 8vw 3dvh 8vw;
-    margin: 0;
-    font-size: 2.5dvh;
-  }
-
-  .previous {
-    background: #1a1919;
-    width: 90vw;
-    height: 8dvh;
-    padding: 3dvh 5vw;
-    margin: 0 5vw;
-    border: none;
-    color: #fcfcfc;
-    text-align: left;
-    font-size: 2dvh;
-    display: flex;
-  }
-  .previous p {
-    margin-left: 4vw;
-  }
-
   .nav {
     width: 90vw;
     margin: 0 5vw;
     padding: 3dvh 0;
+    height: 75dvh;
+    overflow: auto;
   }
 
   nav {
