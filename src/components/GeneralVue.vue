@@ -152,7 +152,7 @@ function reviewSubsection() {
     display: flex;
     flex-direction: column;
     background-color: #1a1919;
-    height: 67dvh;
+    height: 66dvh;
     overflow: auto;
     margin-bottom: 0;
   }
@@ -270,7 +270,7 @@ function reviewSubsection() {
 
   footer {
     align-self: flex-end;
-    margin-top: 1dvh;
+    margin: 1dvh 0;
   }
 
   .footerApply {

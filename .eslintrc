@@ -32,6 +32,5 @@
         "no-useless-escape": "off",
         "vue/no-unused-vars": "error",
         "vue/no-v-html": "off",
-    //   "vue/html-indent": [ "error", "tab" ],
     }
 }
